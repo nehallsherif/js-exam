@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel = "icon" href =  "image/logo.png"type = "image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>yummy</title>
+</head>
+<body>
+    <div class="sideBar ">
+        <div class="side-in d-flex flex-column justify-content-between  ">
+            <div >
+                <ul class="ulLink">
+                    <li onclick="displaySaerch()">search</li>
+                    <li onclick="category()" >Categories</li>
+                    <li onclick="area()" > Area</li>
+                    <li onclick="ingredient()">Ingredients </li>
+                    <li  onclick="contactUs()">Contact Us</li>
+                     
+                    
+                </ul>
+                
+            </div>
+            <div class="copyright">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>Copyright © 2019 All Rights
+                    Reserved.</p>
+    
+            </div>
+    
+        </div>
+        <div class="sign-open d-flex justify-content-between align-items-center flex-column   ">
+            <img class="mt-4 w-75 " src="image/logo.png" alt="">
+    
+            <div id="icon-openn">
+                <p class="openContainer"> 
+                    <i id="openi" class="fa-solid fa-bars fs-2 "></i> </p>
+            </div>
+    
+        </div>
+    
+    </div>
+
+
+    <div class="contact d-none" id="contct-us">
+        <div class="container w-75">
+         <div class="row " id="contact">
+
+             <div class="col-md-6 my-3"><input type="text" class="form-control " placeholder="Enter Your Name " ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Enter Your Email" ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Enter Your Phone" ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Enter Your Age" ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Enter Your Password" ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Repassword" ></div> 
+             <div class="col-md-12 my-3 text-center"><button class="btn btn-outline-danger  ">Submit</button></div>
+            
+         </div>
+        </div>
+     </div>
+
+
+      
+        
+    <script src="js/jquery-3.7.1.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="fontawesome-free-6.4.2-web/js/all.min.js"></script>
+     <script src="js/main.js"></script>
+</body>
+</html>

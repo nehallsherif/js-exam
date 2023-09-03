@@ -1,0 +1,182 @@
+
+body {
+    background-color: #000;
+    width: 100%;
+}
+.load-page{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5445878;
+}
+.sideBar {
+    background-color: black;
+    width: 24%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    display: flex;
+    overflow: hidden;
+    align-items: space-between;
+    z-index: 999999;
+
+}
+
+
+/* spiner */
+
+.theSpiner, .theSpiner * {
+    box-sizing: border-box;
+  }
+
+  .theSpiner {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: relative;
+  }
+
+  .theSpiner .circle {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: calc(60px / 10) solid transparent;
+  }
+
+  .theSpiner .circle.firstRotate {
+    border-top-color: #ff1de1;
+    animation: theSpiner-animation 1s infinite;
+  }
+
+  .theSpiner .circle.secondRotate {
+    border-bottom-color: #43ff1d;
+    animation: theSpiner-animation 1s infinite alternate;
+  }
+
+  @keyframes theSpiner-animation {
+    0% {
+      transform: rotate(0deg);
+
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+
+/* search */
+.inputs{
+
+    background-color:black;
+    }
+    ::placeholder{
+        color:rgb(157, 153, 153)!important;
+    }
+    /*  */
+
+    /* contact uss */
+
+ .contact{
+    margin-top: 15% ;
+ }
+
+.ulLink {
+    list-style: none;
+     cursor: pointer;
+}
+
+.openContainer {
+    cursor: pointer
+}
+.copyright
+ {
+    padding: 2rem;
+    color: #ffffff;
+   
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding-top: 15px;
+    color: #ffffff;
+
+}
+.sign-open {
+    width: 20%;
+   
+    background-color: #ffffff;
+}
+
+#openIcon a{
+    color: #000;
+}
+
+
+
+
+.con{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.con .layer{
+    background-color: rgba(128, 128, 128, 0.829);
+    z-index: 9999;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    
+    
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:all 1s;
+}
+.con .layer .title{
+    font-size: large;
+    font-weight:bolder ;
+    margin: 10px 0;
+}
+.titledis{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.con:hover .layer{
+    top: 0; 
+   opacity: 1;
+} 
+
+
+
+
+ /* area  */
+ .areaContainer .col-md-3  {
+    font-size: 90px;
+    
+ }
+ .fa-house-laptop{
+    font-size: 70px;
+ }
+
+
+
+ .ing , .area{
+    font-size: 70px;
+ }
+ 
+ 
